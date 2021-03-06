@@ -45,7 +45,3 @@ input.matrix <- read.csv("input.matrix.csv")
 result <- FInet(input.matrix,3000)
 driver.genes <- result$gene[which(result$qValue <= 0.05)]
 ```
-## Reference
-[1] Lawrence, M. S., Stojanov, P., Polak, P., Kryukov, G. V., Cibulskis, K., Sivachenko, A., et al. (2013). Mutational heterogeneity in cancer and the search for new cancer-associated genes. Nature 499, 214–218. doi:10.1038/nature12213.
-
-[2] Reva, B., Antipin, Y., and Sander, C. (2011). Predicting the functional impact of protein mutations: application to cancer genomics. Nucleic Acids Res. 39, e118. doi:10.1093/nar/gkr407.
