@@ -26,9 +26,9 @@ Run ./FInet.R to identify driver genes, and the gene list and the corresponding 
 ## Folder Structure
 ```
 FI-net
-|   README
-|   FInet.R
-|   input.matrix.csv
+|__ README
+|__ FInet.R
+|__ input.matrix.csv
 ```
 ## Usage
 1. Make sure that the dependent R package (data.table, plyr, stringr, h2o, and fitdistrplus) are successfully installed.
